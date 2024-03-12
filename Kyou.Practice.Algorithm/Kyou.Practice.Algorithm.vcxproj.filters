@@ -16,6 +16,9 @@
     <Filter Include="Source Files\ReverseLinkedListAlgorithm">
       <UniqueIdentifier>{6e0096d3-824e-4921-a99a-791ffecde946}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\FibonacciAlgorithm">
+      <UniqueIdentifier>{8c27792a-8de3-48b6-90e7-e10eb9944474}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Kyou.Practice.Algorithm.cpp">
@@ -24,9 +27,15 @@
     <ClCompile Include="ReverseLinkedList.cpp">
       <Filter>Source Files\ReverseLinkedListAlgorithm</Filter>
     </ClCompile>
+    <ClCompile Include="Fibonacci.cpp">
+      <Filter>Source Files\FibonacciAlgorithm</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ReverseLinkedList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Fibonacci.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

@@ -1,6 +1,7 @@
 #pragma once
 
 #include <iostream>
+#include <string>
 using namespace std;
 //Definition for singly-linked list.
 struct ListNode {
@@ -18,9 +19,10 @@ public:
 	void traverse(ListNode* head) {
 		ListNode* tmp = head;
 		while (tmp) {
-			cout << tmp->val << endl;
+			cout << to_string(tmp->val) + " ";
 			tmp = tmp->next;
 		}
+		cout << endl;
 	}
 
 	ListNode* reverseList(ListNode* head) {
@@ -36,7 +38,7 @@ public:
 	}
 
 	void run() {
-
+		cout << "leetcode 206. ·´×ªÁ´±í" << endl;
 		ListNode* l4 = new ListNode(4);
 		ListNode* l3 = new ListNode(3, l4);
 		ListNode* l2 = new ListNode(2, l3);
@@ -48,7 +50,7 @@ public:
 		ListNode* res = reverseList(head);
 
 		traverse(res);
-
+		cout << endl;
 	}
 };
 

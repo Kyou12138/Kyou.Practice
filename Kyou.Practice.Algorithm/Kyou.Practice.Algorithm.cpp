@@ -3,14 +3,21 @@
 
 #include <iostream>
 #include "ReverseLinkedList.h"
+#include "Fibonacci.h"
 
 int main()
 {
     std::cout << "Hello World!\n";
 
     //leetcode 206. 反转链表
-    ReverseLinkedList* r = new ReverseLinkedList();
-    r->run();
+    ReverseLinkedList* r206= new ReverseLinkedList();
+    r206->run();
+
+    //509. 斐波那契数
+    Fibonacci* f509 = new Fibonacci();
+    f509->run();
+
+
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
