@@ -129,10 +129,12 @@
   <ItemGroup>
     <ClCompile Include="Fibonacci.cpp" />
     <ClCompile Include="Kyou.Practice.Algorithm.cpp" />
+    <ClCompile Include="MaxSubArray.cpp" />
     <ClCompile Include="ReverseLinkedList.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Fibonacci.h" />
+    <ClInclude Include="MaxSubArray.h" />
     <ClInclude Include="ReverseLinkedList.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

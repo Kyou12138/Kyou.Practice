@@ -4,6 +4,7 @@
 #include <iostream>
 #include "ReverseLinkedList.h"
 #include "Fibonacci.h"
+#include "MaxSubArray.h"
 
 int main()
 {
@@ -13,9 +14,13 @@ int main()
     ReverseLinkedList* r206= new ReverseLinkedList();
     r206->run();
 
-    //509. 斐波那契数
+    //leetcode 509. 斐波那契数
     Fibonacci* f509 = new Fibonacci();
     f509->run();
+
+    //leetcode 53. 最大子数组和
+    MaxSubArray* m53 = new MaxSubArray();
+    m53->run();
 
 
 }

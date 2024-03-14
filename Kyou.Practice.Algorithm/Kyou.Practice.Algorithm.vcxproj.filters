@@ -19,6 +19,9 @@
     <Filter Include="Source Files\FibonacciAlgorithm">
       <UniqueIdentifier>{8c27792a-8de3-48b6-90e7-e10eb9944474}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\MaxSubArrayAlgorithm">
+      <UniqueIdentifier>{b5e2d3c1-760a-425c-8801-1125a504db05}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Kyou.Practice.Algorithm.cpp">
@@ -30,12 +33,18 @@
     <ClCompile Include="Fibonacci.cpp">
       <Filter>Source Files\FibonacciAlgorithm</Filter>
     </ClCompile>
+    <ClCompile Include="MaxSubArray.cpp">
+      <Filter>Source Files\MaxSubArrayAlgorithm</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ReverseLinkedList.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Fibonacci.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MaxSubArray.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
