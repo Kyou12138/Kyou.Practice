@@ -5,6 +5,7 @@
 #include "ReverseLinkedList.h"
 #include "Fibonacci.h"
 #include "MaxSubArray.h"
+#include "MergeSortedArray.h"
 
 int main()
 {
@@ -22,7 +23,9 @@ int main()
     MaxSubArray* m53 = new MaxSubArray();
     m53->run();
 
-
+    //leetcode 88. 合并两个有序数组
+    MergeSortedArray* m88 = new MergeSortedArray();
+    m88->run();
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu

@@ -22,6 +22,9 @@
     <Filter Include="Source Files\MaxSubArrayAlgorithm">
       <UniqueIdentifier>{b5e2d3c1-760a-425c-8801-1125a504db05}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\MergeSortedArrayAlgorithm">
+      <UniqueIdentifier>{b1931e36-af55-4f09-a8dc-53523f530d21}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Kyou.Practice.Algorithm.cpp">
@@ -36,6 +39,9 @@
     <ClCompile Include="MaxSubArray.cpp">
       <Filter>Source Files\MaxSubArrayAlgorithm</Filter>
     </ClCompile>
+    <ClCompile Include="MergeSortedArray.cpp">
+      <Filter>Source Files\MergeSortedArrayAlgorithm</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ReverseLinkedList.h">
@@ -45,6 +51,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="MaxSubArray.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MergeSortedArray.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
