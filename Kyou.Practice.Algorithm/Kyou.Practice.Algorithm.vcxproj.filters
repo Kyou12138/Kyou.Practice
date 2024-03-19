@@ -25,6 +25,9 @@
     <Filter Include="Source Files\MergeSortedArrayAlgorithm">
       <UniqueIdentifier>{b1931e36-af55-4f09-a8dc-53523f530d21}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\RemoveElementAlgorithm">
+      <UniqueIdentifier>{f4eefeb4-6310-4f80-b32b-b17e5223d70c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Kyou.Practice.Algorithm.cpp">
@@ -42,6 +45,9 @@
     <ClCompile Include="MergeSortedArray.cpp">
       <Filter>Source Files\MergeSortedArrayAlgorithm</Filter>
     </ClCompile>
+    <ClCompile Include="RemoveElement.cpp">
+      <Filter>Source Files\RemoveElementAlgorithm</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ReverseLinkedList.h">
@@ -54,6 +60,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="MergeSortedArray.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RemoveElement.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

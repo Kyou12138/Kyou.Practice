@@ -6,6 +6,7 @@
 #include "Fibonacci.h"
 #include "MaxSubArray.h"
 #include "MergeSortedArray.h"
+#include "RemoveElement.h"
 
 int main()
 {
@@ -26,6 +27,10 @@ int main()
     //leetcode 88. 合并两个有序数组
     MergeSortedArray* m88 = new MergeSortedArray();
     m88->run();
+
+    //leetcode 27. 移除元素
+    RemoveElement* r27 = new RemoveElement();
+    r27->run();
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
